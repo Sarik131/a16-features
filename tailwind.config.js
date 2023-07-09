@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: { ...colors.violet, DEFAULT: colors.violet[600] }
+        primary: { ...colors.slate, DEFAULT: colors.slate[800] }
       }
     },
   },
