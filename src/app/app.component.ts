@@ -7,7 +7,12 @@ import { HeaderComponent } from './core/header/header.component';
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, RouterOutlet, HeaderComponent],
-  templateUrl: 'app.component.html',
+  template: `
+    <app-header />
+    <div class="container p-5">
+      <router-outlet />
+    </div>
+  `,
 })
 export class AppComponent {
   title = 'a16-features123123';
